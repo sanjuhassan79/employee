@@ -1,7 +1,7 @@
 
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import {Navbar as Appber,Container,Form,FormControl,Nav, Stack} from 'react-bootstrap'
+import {Navbar as Appber,Container,Nav, Stack} from 'react-bootstrap'
 import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     return (
@@ -40,15 +40,7 @@ const Navbar = () => {
               
             
             </Nav>
-            <Form className="d-flex">
-              <FormControl
-                type="search"
-                placeholder="Search"
-                className="me-2"
-                aria-label="Search"
-              />
-              
-            </Form>
+            
           </Appber.Collapse>
         </Container>
       </Appber>
